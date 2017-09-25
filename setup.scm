@@ -1,2 +1,2 @@
-(safe-symlink (in-dotdir '("guile/init.scm")) (in-home '(".guile")))
+(safe-symlink (in-dir dotdir '("guile/init.scm")) (in-dir home '(".guile")))
 
